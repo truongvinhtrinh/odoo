@@ -19,7 +19,7 @@
             Notes
     """,
     'website': 'https://www.odoo.com',
-    'depends': ['sale', 'product', 'account'],
+    'depends': ['point_of_sale', 'sale', 'product', 'account'],
     'data': [
         'views/sale_view.xml',
         'views/account_view.xml',

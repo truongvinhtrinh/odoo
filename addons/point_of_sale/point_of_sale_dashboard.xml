@@ -60,7 +60,7 @@
                             <div class="o_kanban_card_header">
                                 <div class="o_kanban_card_header_title">
                                     <div class="o_primary"><t t-esc="record.name.value"/></div>
-                                    <div class="o_secondary"><t t-esc="record.pos_session_username.value || 'Unused'"/></div>
+                                    <div class="o_secondary"><t t-esc="record.pos_session_username.value || '--'"/></div>
                                 </div>
                                 <div class="o_kanban_manage_button_section">
                                     <a class="o_kanban_manage_toggle_button" href="#">More <i class="fa fa-caret-down"/></a>
