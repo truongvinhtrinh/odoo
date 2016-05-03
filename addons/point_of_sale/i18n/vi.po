@@ -1906,7 +1906,7 @@ msgstr "Đang xử lý"
 #: code:addons/point_of_sale/point_of_sale.py:784
 #, python-format
 msgid "In order to delete a sale, it must be new or cancelled."
-msgstr ""
+msgstr "Để xóa được đơn hàng này, nó phải ở trạng thái Mới hoặc là Đã hủy"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_search
@@ -2728,7 +2728,7 @@ msgstr "Vui lòng xác định tài khoản doanh thu cho sản phẩm này: \"%
 #: code:addons/point_of_sale/point_of_sale.py:1105
 #, python-format
 msgid "Please provide a partner for the sale."
-msgstr ""
+msgstr "Xin hãy cho thông tin của khách hàng của đơn hàng trước."
 
 #. module: point_of_sale
 #. openerp-web
@@ -3112,7 +3112,7 @@ msgstr "Trở lại"
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 #, python-format
 msgid "Return Products"
-msgstr ""
+msgstr "Trả lại hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_amount_return
@@ -3206,7 +3206,7 @@ msgstr "Nhân viên bán hàng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_details_user_ids
 msgid "Salespeople"
-msgstr ""
+msgstr "Nhân viên bán hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_user_id
@@ -4032,7 +4032,7 @@ msgstr ""
 msgid ""
 "To return product(s), you need to open a session that will be used to "
 "register the refund."
-msgstr ""
+msgstr "Để thực hiện việc trả lại hàng của khách hàng, bạn phải là nhân viên bán hàng của đơn hàng này."
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_search

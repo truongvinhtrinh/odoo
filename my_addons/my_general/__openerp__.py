@@ -5,7 +5,7 @@
     'name': 'Trinh General Customize',
     'version': '1.0',
     'category': 'Sales Management',
-    'sequence': 15,
+    'sequence': 8000,
     'summary': 'Trinh general customize',
     'description': """
     To:

@@ -333,7 +333,7 @@ msgstr "Thêm một điều kiện"
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1016
 #, python-format
 msgid "Add an item"
-msgstr "Thêm một hạng mục"
+msgstr "Thêm vào"
 
 #. module: web
 #. openerp-web

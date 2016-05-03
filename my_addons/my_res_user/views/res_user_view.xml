@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="trinh_view_users_tree" model="ir.ui.view">
+            <field name="name">trinh.res.users.tree</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_tree"/>
+            <field name="priority" eval="1000"/>
+            <field name="arch" type="xml">
+                <field name="login" position="attributes">
+                    <field name="login" invisible="1"/>
+                </field>
+                <field name="lang" position="attributes">
+                    <field name="lang" invisible="1" />
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
